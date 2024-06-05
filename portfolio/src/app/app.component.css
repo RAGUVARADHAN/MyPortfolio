@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jaldi&family=Montserrat&family=Noto+Sans:wght@500&family=Poppins:wght@300;400&family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,400;1,100&family=Sanchez:ital@0;1&display=swap');
+
+.navbar-brand
+{
+    font-family: "Reddit Mono", monospace;
+    letter-spacing: 0px;
+    font-size: 30px;
+}
+.navbar 
+{
+    border: 1px solid rgb(223, 217, 217);
+    box-shadow:1px 1px rgb(234, 229, 229);
+    background-color: #fffbfb;
+    position:sticky;
+    top: 0;
+}
+.navbar-nav 
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+.navbar-nav li 
+{
+    letter-spacing:2px;
+}
+.container-fluid
+{
+    display: flex;
+    padding: 20px 100px;
+}
+.nav-container
+{
+    width: 50%;
+    align-items: center;
+}
+.nav-container button
+{
+    border: none;
+}
+.collapse
+{
+    width: 50%;
+}
+.collapse li 
+{
+    padding-left: 30px;
+}
+.collapse li a:hover, .collapse li a:active
+{
+    color: #eb5424;
+}
+.home 
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.home-img
+{
+    width: 30%;
+    height: auto;
+}
+#name 
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: 1.5px;
+}
+#job 
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #eb5424;
+    font-size: 36px;
+}
+#desc 
+{
+    font-family: "Reddit Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+}
+.home-cont button {
+    border:none;
+    font-family: "Roboto", sans-serif;
+    background-color: #eb5424;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing:1px;
+}
+.work 
+{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    padding: 20px 100px;
+}
+span 
+{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1430px)
+{
+    .nav-container 
+    {
+      display: flex;
+      justify-content: space-between;
+      width: 40%;
+    }
+    .home
+    {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .home img 
+    {
+        display:none;
+    }
+}
+@media only screen and (max-width: 1400px)
+{
+    .nav-container 
+    {
+        width: 100%;
+    }
+    .collapse li
+    {
+        padding-left: 0px;
+    }
+}
+  
