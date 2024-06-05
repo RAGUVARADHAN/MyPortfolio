@@ -102,7 +102,36 @@ span
 {
     font-weight: bold;
 }
-
+.work-container 
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.work-cont
+{
+    margin-left: 20px;
+    border: 1px solid #666;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 2px;
+}
+.work-cont p 
+{
+    margin-top: 30px;
+}
+.work-cont .fa-brands
+{
+    font-size: 48px;
+}
+.work-cont p:nth-child(2)
+{
+    color: #eb5424;
+}
+.work-cont p:nth-child(3)
+{
+    font-size: 14px;
+}
 @media only screen and (max-width: 1430px)
 {
     .nav-container 
