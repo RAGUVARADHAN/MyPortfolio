@@ -91,7 +91,7 @@
     font-weight: bold;
     letter-spacing:1px;
 }
-.work 
+.headcontainer 
 {
     font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
@@ -116,6 +116,10 @@ span
     padding: 80px 40px;
     border-radius: 2px;
 }
+.work-cont:hover 
+{
+    border: 1px solid #eb5424;
+}
 .work-cont p 
 {
     margin-top: 30px;
@@ -131,6 +135,12 @@ span
 .work-cont p:nth-child(3)
 {
     font-size: 14px;
+}
+.portfolioheading
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 @media only screen and (max-width: 1430px)
 {
@@ -160,6 +170,21 @@ span
     .collapse li
     {
         padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 1200px)
+{
+    .work-container 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .work-cont
+    {
+        margin-top: 20px;
+        width: 100%;
     }
 }
   
